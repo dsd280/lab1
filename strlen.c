@@ -13,7 +13,7 @@ int stringlength(char str[])
 {
 	int count = 0, i;
 
-	for (i=0; str(i) != '\0'; i++)
+	for (i=0; str[i] != '\0'; i++)
 	{
 		count++;	
 	}
